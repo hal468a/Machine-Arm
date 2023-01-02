@@ -77,11 +77,6 @@ class Init : public State
                 *point++;
             }
 
-            // for(int i = 0 ;i < sizeof(ary) / sizeof(char); i++)
-            // {
-            //     this->str += point[i];
-            // }
-
             this->name = "Init";
             Serial.println("State: " + this->name + this->action + "\n");
             Serial2.print(str);
